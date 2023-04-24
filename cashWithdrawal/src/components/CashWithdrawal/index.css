@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  height: 100vh;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #150b3e;
+  border-radius: 15px;
+  width: 400px;
+  height: 420px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.para-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  width: 60px;
+  height: 60px;
+  border-radius: 45px;
+  margin-right: 15px;
+}
+.s {
+  color: #7c3aed;
+  font-size: large;
+}
+.name-para {
+  color: #c4c4c4;
+  font-size: 20px;
+}
+.money-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: -20px;
+}
+.balance-name {
+  color: #585076;
+  font-size: 18px;
+  align-self: center;
+}
+
+.amount {
+  color: #c4c4c4;
+  font-size: 28px;
+}
+.rupees {
+  color: #585076;
+  font-size: 12px;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+.withdraw {
+  color: #c4c4c4;
+  font-size: 20px;
+}
+.choose {
+  color: #585076;
+  font-size: 12px;
+}
+.items-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: -5px;
+  margin-left: -40px;
+}
